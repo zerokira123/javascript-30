@@ -59,12 +59,16 @@
     .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
     .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
-    /* Flex Children */
+    /* Flex items */
     .panel > * {
       margin: 0;
       width: 100%;
       transition: transform 0.5s;
       border:1px solid red;
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
     }
 
